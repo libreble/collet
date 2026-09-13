@@ -1,0 +1,1665 @@
+{
+  "meta": {
+    "name": "COLLET accessory & speed guide",
+    "attribution": "Speed figures are the manufacturer's recommended RPM ranges (facts), compiled from published Dremel rotary accessory guidance and cross-checked across regions. Grouping, wording, colours and the speed-level mapping are our own. Not affiliated with or endorsed by Dremel or Bosch.",
+    "sourceNote": "Published NA and EU accessory guidance agrees on 100% of the 220 accessory-material pairings they share.",
+    "combos": 234
+  },
+  "categories": [
+    {
+      "id": "carving",
+      "label": "Carving & Engraving",
+      "color": "#2a78d6",
+      "colorDark": "#3987e5",
+      "icon": "c-carving",
+      "blurb": "Shape fine detail and cut lettering or patterns into a surface with small pointed bits."
+    },
+    {
+      "id": "routing",
+      "label": "Routing",
+      "color": "#4a3aa7",
+      "colorDark": "#9085e9",
+      "icon": "c-routing",
+      "blurb": "Hollow out grooves, round over edges and follow profiles with router-style bits."
+    },
+    {
+      "id": "grinding",
+      "label": "Grinding & Sharpening",
+      "color": "#eb6834",
+      "colorDark": "#d95926",
+      "icon": "c-grinding",
+      "blurb": "Wear material down, knock off burrs and put an edge back on blades and bits."
+    },
+    {
+      "id": "cutting",
+      "label": "Cutting",
+      "color": "#e34948",
+      "colorDark": "#e66767",
+      "icon": "c-cutting",
+      "blurb": "Slice through stock with cut-off wheels and cutting bits."
+    },
+    {
+      "id": "cleaning",
+      "label": "Cleaning & Polishing",
+      "color": "#1baf7a",
+      "colorDark": "#199e70",
+      "icon": "c-cleaning",
+      "blurb": "Strip rust and grime, then bring the surface up to a shine with brushes and buffs."
+    },
+    {
+      "id": "sanding",
+      "label": "Sanding",
+      "color": "#eda100",
+      "colorDark": "#c98500",
+      "icon": "c-sanding",
+      "blurb": "Smooth and finish surfaces with sanding bands, discs and flap wheels."
+    },
+    {
+      "id": "drilling",
+      "label": "Drilling",
+      "color": "#e87ba4",
+      "colorDark": "#d55181",
+      "icon": "c-drilling",
+      "blurb": "Bore clean, accurate holes in wood, metal, glass and tile."
+    },
+    {
+      "id": "grout",
+      "label": "Grout Removal",
+      "color": "#008300",
+      "colorDark": "#008300",
+      "icon": "c-grout",
+      "blurb": "Rake old grout from between tiles without nicking the edges."
+    }
+  ],
+  "materials": [
+    {
+      "id": "soft_wood",
+      "name": "Soft Wood",
+      "blurb": "Pine, cedar and other easy-cutting woods — forgiving and quick to shape.",
+      "groups": [
+        {
+          "cat": "carving",
+          "types": [
+            {
+              "name": "High-speed carving/engraving bits",
+              "rpmLow": 25000,
+              "rpmHigh": 35000
+            },
+            {
+              "name": "Carving bits",
+              "rpmLow": 25000,
+              "rpmHigh": 35000
+            },
+            {
+              "name": "Engraving bits",
+              "rpmLow": 25000,
+              "rpmHigh": 35000
+            },
+            {
+              "name": "Diamond wheel points",
+              "rpmLow": 18000,
+              "rpmHigh": 24000
+            },
+            {
+              "name": "Structured tungsten-carbide bits",
+              "rpmLow": 25000,
+              "rpmHigh": 35000
+            },
+            {
+              "name": "Tungsten carbide",
+              "rpmLow": 25000,
+              "rpmHigh": 35000
+            }
+          ]
+        },
+        {
+          "cat": "routing",
+          "types": [
+            {
+              "name": "Routing pilot beading",
+              "rpmLow": 25000,
+              "rpmHigh": 35000
+            },
+            {
+              "name": "Routing V-groove",
+              "rpmLow": 25000,
+              "rpmHigh": 35000
+            },
+            {
+              "name": "Routing corner rounding",
+              "rpmLow": 25000,
+              "rpmHigh": 35000
+            },
+            {
+              "name": "Routing chamfer",
+              "rpmLow": 25000,
+              "rpmHigh": 35000
+            },
+            {
+              "name": "Routing straight",
+              "rpmLow": 25000,
+              "rpmHigh": 35000
+            }
+          ]
+        },
+        {
+          "cat": "grinding",
+          "types": [
+            {
+              "name": "Finishing abrasive point",
+              "rpmLow": 4000,
+              "rpmHigh": 6000
+            },
+            {
+              "name": "Aluminium oxide abrasive wheel",
+              "rpmLow": 4000,
+              "rpmHigh": 6000
+            },
+            {
+              "name": "Aluminium oxide",
+              "rpmLow": 25000,
+              "rpmHigh": 35000
+            }
+          ]
+        },
+        {
+          "cat": "cutting",
+          "types": [
+            {
+              "name": "Carbide cutting & shaping wheels",
+              "rpmLow": 25000,
+              "rpmHigh": 35000
+            },
+            {
+              "name": "Wood cutting wheel",
+              "rpmLow": 25000,
+              "rpmHigh": 35000
+            },
+            {
+              "name": "Diamond wheels",
+              "rpmLow": 18000,
+              "rpmHigh": 35000
+            },
+            {
+              "name": "Multi-purpose cutting bit",
+              "rpmLow": 12000,
+              "rpmHigh": 35000
+            }
+          ]
+        },
+        {
+          "cat": "cleaning",
+          "types": [
+            {
+              "name": "Bristle brushes",
+              "rpmLow": 9000,
+              "rpmHigh": 11000
+            },
+            {
+              "name": "Carbon steel brushes",
+              "rpmLow": 9000,
+              "rpmHigh": 11000
+            },
+            {
+              "name": "Brass brushes",
+              "rpmLow": 9000,
+              "rpmHigh": 11000
+            }
+          ]
+        },
+        {
+          "cat": "sanding",
+          "types": [
+            {
+              "name": "Sanding bands",
+              "rpmLow": 5000,
+              "rpmHigh": 35000
+            },
+            {
+              "name": "Sanding discs",
+              "rpmLow": 12000,
+              "rpmHigh": 17000
+            },
+            {
+              "name": "Flapwheels",
+              "rpmLow": 25000,
+              "rpmHigh": 35000
+            },
+            {
+              "name": "Finishing abrasive buffs",
+              "rpmLow": 12000,
+              "rpmHigh": 15000
+            },
+            {
+              "name": "Detail abrasive brushes",
+              "rpmLow": 5000,
+              "rpmHigh": 15000
+            }
+          ]
+        },
+        {
+          "cat": "drilling",
+          "types": [
+            {
+              "name": "Drill bit set",
+              "rpmLow": 25000,
+              "rpmHigh": 35000
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hard_wood",
+      "name": "Hard Wood",
+      "blurb": "Oak, maple and dense hardwoods — ease off the speed and let the bit do the work.",
+      "groups": [
+        {
+          "cat": "carving",
+          "types": [
+            {
+              "name": "High-speed carving/engraving bits",
+              "rpmLow": 12000,
+              "rpmHigh": 35000
+            },
+            {
+              "name": "Carving bits",
+              "rpmLow": 12000,
+              "rpmHigh": 35000
+            },
+            {
+              "name": "Engraving bits",
+              "rpmLow": 25000,
+              "rpmHigh": 35000
+            },
+            {
+              "name": "Diamond wheel points",
+              "rpmLow": 18000,
+              "rpmHigh": 24000
+            },
+            {
+              "name": "Structured tungsten-carbide bits",
+              "rpmLow": 18000,
+              "rpmHigh": 24000
+            },
+            {
+              "name": "Tungsten carbide",
+              "rpmLow": 18000,
+              "rpmHigh": 24000
+            }
+          ]
+        },
+        {
+          "cat": "routing",
+          "types": [
+            {
+              "name": "Routing pilot beading",
+              "rpmLow": 18000,
+              "rpmHigh": 24000
+            },
+            {
+              "name": "Routing V-groove",
+              "rpmLow": 18000,
+              "rpmHigh": 24000
+            },
+            {
+              "name": "Routing corner rounding",
+              "rpmLow": 25000,
+              "rpmHigh": 35000
+            },
+            {
+              "name": "Routing chamfer",
+              "rpmLow": 25000,
+              "rpmHigh": 35000
+            },
+            {
+              "name": "Routing straight",
+              "rpmLow": 18000,
+              "rpmHigh": 24000
+            }
+          ]
+        },
+        {
+          "cat": "grinding",
+          "types": [
+            {
+              "name": "Finishing abrasive point",
+              "rpmLow": 4000,
+              "rpmHigh": 6000
+            },
+            {
+              "name": "Aluminium oxide abrasive wheel",
+              "rpmLow": 4000,
+              "rpmHigh": 6000
+            },
+            {
+              "name": "Aluminium oxide",
+              "rpmLow": 25000,
+              "rpmHigh": 35000
+            }
+          ]
+        },
+        {
+          "cat": "cutting",
+          "types": [
+            {
+              "name": "Carbide cutting & shaping wheels",
+              "rpmLow": 18000,
+              "rpmHigh": 35000
+            },
+            {
+              "name": "Wood cutting wheel",
+              "rpmLow": 18000,
+              "rpmHigh": 35000
+            },
+            {
+              "name": "Diamond wheels",
+              "rpmLow": 18000,
+              "rpmHigh": 24000
+            },
+            {
+              "name": "Multi-purpose cutting bit",
+              "rpmLow": 12000,
+              "rpmHigh": 35000
+            }
+          ]
+        },
+        {
+          "cat": "cleaning",
+          "types": [
+            {
+              "name": "Bristle brushes",
+              "rpmLow": 9000,
+              "rpmHigh": 11000
+            },
+            {
+              "name": "Carbon steel brushes",
+              "rpmLow": 9000,
+              "rpmHigh": 11000
+            },
+            {
+              "name": "Stainless steel wire brushes",
+              "rpmLow": 9000,
+              "rpmHigh": 11000
+            },
+            {
+              "name": "Brass brushes",
+              "rpmLow": 9000,
+              "rpmHigh": 11000
+            }
+          ]
+        },
+        {
+          "cat": "sanding",
+          "types": [
+            {
+              "name": "Sanding bands",
+              "rpmLow": 5000,
+              "rpmHigh": 35000
+            },
+            {
+              "name": "Sanding discs",
+              "rpmLow": 12000,
+              "rpmHigh": 17000
+            },
+            {
+              "name": "Flapwheels",
+              "rpmLow": 18000,
+              "rpmHigh": 24000
+            },
+            {
+              "name": "Finishing abrasive buffs",
+              "rpmLow": 12000,
+              "rpmHigh": 15000
+            },
+            {
+              "name": "Detail abrasive brushes",
+              "rpmLow": 5000,
+              "rpmHigh": 15000
+            }
+          ]
+        },
+        {
+          "cat": "drilling",
+          "types": [
+            {
+              "name": "Drill bit set",
+              "rpmLow": 18000,
+              "rpmHigh": 35000
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "plastics",
+      "name": "Plastics",
+      "blurb": "Acrylic, PVC and resins — keep it moderate so the plastic cuts instead of melting.",
+      "groups": [
+        {
+          "cat": "carving",
+          "types": [
+            {
+              "name": "High-speed carving/engraving bits",
+              "rpmLow": 9000,
+              "rpmHigh": 17000
+            },
+            {
+              "name": "Carving bits",
+              "rpmLow": 9000,
+              "rpmHigh": 17000
+            },
+            {
+              "name": "Engraving bits",
+              "rpmLow": 12000,
+              "rpmHigh": 24000
+            },
+            {
+              "name": "Structured tungsten-carbide bits",
+              "rpmLow": 9000,
+              "rpmHigh": 11000
+            },
+            {
+              "name": "Tungsten carbide",
+              "rpmLow": 9000,
+              "rpmHigh": 11000
+            }
+          ]
+        },
+        {
+          "cat": "grinding",
+          "types": [
+            {
+              "name": "Silicon carbide",
+              "rpmLow": 12000,
+              "rpmHigh": 17000
+            }
+          ]
+        },
+        {
+          "cat": "cutting",
+          "types": [
+            {
+              "name": "Cut-off wheels",
+              "rpmLow": 5000,
+              "rpmHigh": 11000
+            },
+            {
+              "name": "Fibreglass-reinforced cut-off wheels",
+              "rpmLow": 5000,
+              "rpmHigh": 11000
+            },
+            {
+              "name": "Thin cut-off wheels",
+              "rpmLow": 5000,
+              "rpmHigh": 11000
+            },
+            {
+              "name": "Carbide cutting & shaping wheels",
+              "rpmLow": 5000,
+              "rpmHigh": 11000
+            },
+            {
+              "name": "Wood cutting wheel",
+              "rpmLow": 5000,
+              "rpmHigh": 11000
+            },
+            {
+              "name": "Multi-purpose cutting bit",
+              "rpmLow": 5000,
+              "rpmHigh": 11000
+            },
+            {
+              "name": "Fiberglass reinforced plastic",
+              "rpmLow": 5000,
+              "rpmHigh": 11000
+            }
+          ]
+        },
+        {
+          "cat": "cleaning",
+          "types": [
+            {
+              "name": "Bristle brushes",
+              "rpmLow": 5000,
+              "rpmHigh": 11000
+            },
+            {
+              "name": "Carbon steel brushes",
+              "rpmLow": 5000,
+              "rpmHigh": 8000
+            }
+          ]
+        },
+        {
+          "cat": "sanding",
+          "types": [
+            {
+              "name": "Sanding bands",
+              "rpmLow": 5000,
+              "rpmHigh": 17000
+            },
+            {
+              "name": "Sanding discs",
+              "rpmLow": 5000,
+              "rpmHigh": 8000
+            },
+            {
+              "name": "Flapwheels",
+              "rpmLow": 5000,
+              "rpmHigh": 8000
+            },
+            {
+              "name": "Finishing abrasive buffs",
+              "rpmLow": 9000,
+              "rpmHigh": 11000
+            },
+            {
+              "name": "Detail abrasive brushes",
+              "rpmLow": 5000,
+              "rpmHigh": 15000
+            }
+          ]
+        },
+        {
+          "cat": "drilling",
+          "types": [
+            {
+              "name": "Drill bit set",
+              "rpmLow": 5000,
+              "rpmHigh": 11000
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "steel",
+      "name": "Steel",
+      "blurb": "Mild and hardened steel — steady speeds, and expect sparks when you grind.",
+      "groups": [
+        {
+          "cat": "carving",
+          "types": [
+            {
+              "name": "High-speed carving/engraving bits",
+              "rpmLow": 12000,
+              "rpmHigh": 35000
+            },
+            {
+              "name": "Carving bits",
+              "rpmLow": 12000,
+              "rpmHigh": 17000
+            },
+            {
+              "name": "Engraving bits",
+              "rpmLow": 9000,
+              "rpmHigh": 11000
+            },
+            {
+              "name": "Tungsten carbide",
+              "rpmLow": 25000,
+              "rpmHigh": 35000
+            }
+          ]
+        },
+        {
+          "cat": "grinding",
+          "types": [
+            {
+              "name": "Silicon carbide",
+              "rpmLow": 25000,
+              "rpmHigh": 35000
+            },
+            {
+              "name": "Finishing abrasive point",
+              "rpmLow": 18000,
+              "rpmHigh": 24000
+            },
+            {
+              "name": "Aluminium oxide abrasive wheel",
+              "rpmLow": 18000,
+              "rpmHigh": 24000
+            },
+            {
+              "name": "Aluminium oxide grinding wheel",
+              "rpmLow": 12000,
+              "rpmHigh": 24000
+            },
+            {
+              "name": "Aluminium oxide",
+              "rpmLow": 18000,
+              "rpmHigh": 24000
+            },
+            {
+              "name": "Chainsaw sharpening stones",
+              "rpmLow": 25000,
+              "rpmHigh": 35000
+            }
+          ]
+        },
+        {
+          "cat": "cutting",
+          "types": [
+            {
+              "name": "Cut-off wheels",
+              "rpmLow": 25000,
+              "rpmHigh": 35000
+            },
+            {
+              "name": "Fibreglass-reinforced cut-off wheels",
+              "rpmLow": 25000,
+              "rpmHigh": 35000
+            },
+            {
+              "name": "Thin cut-off wheels",
+              "rpmLow": 25000,
+              "rpmHigh": 35000
+            },
+            {
+              "name": "Fiberglass reinforced metal",
+              "rpmLow": 25000,
+              "rpmHigh": 35000
+            }
+          ]
+        },
+        {
+          "cat": "cleaning",
+          "types": [
+            {
+              "name": "Rubber polished points",
+              "rpmLow": 18000,
+              "rpmHigh": 24000
+            },
+            {
+              "name": "Felt polishing tips",
+              "rpmLow": 12000,
+              "rpmHigh": 17000
+            },
+            {
+              "name": "Impregnated wheels",
+              "rpmLow": 18000,
+              "rpmHigh": 24000
+            },
+            {
+              "name": "Polishing cloth",
+              "rpmLow": 12000,
+              "rpmHigh": 24000
+            },
+            {
+              "name": "Bristle brushes",
+              "rpmLow": 12000,
+              "rpmHigh": 15000
+            },
+            {
+              "name": "Carbon steel brushes",
+              "rpmLow": 9000,
+              "rpmHigh": 11000
+            },
+            {
+              "name": "Stainless steel wire brushes",
+              "rpmLow": 9000,
+              "rpmHigh": 11000
+            },
+            {
+              "name": "Brass brushes",
+              "rpmLow": 9000,
+              "rpmHigh": 11000
+            }
+          ]
+        },
+        {
+          "cat": "sanding",
+          "types": [
+            {
+              "name": "Sanding bands",
+              "rpmLow": 25000,
+              "rpmHigh": 35000
+            },
+            {
+              "name": "Flapwheels",
+              "rpmLow": 25000,
+              "rpmHigh": 35000
+            },
+            {
+              "name": "Finishing abrasive buffs",
+              "rpmLow": 12000,
+              "rpmHigh": 15000
+            },
+            {
+              "name": "Detail abrasive brushes",
+              "rpmLow": 5000,
+              "rpmHigh": 15000
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "brass",
+      "name": "Brass",
+      "blurb": "Soft, gummy metal — clears cleanly at mid speeds without loading up the bit.",
+      "groups": [
+        {
+          "cat": "carving",
+          "types": [
+            {
+              "name": "High-speed carving/engraving bits",
+              "rpmLow": 12000,
+              "rpmHigh": 35000
+            },
+            {
+              "name": "Carving bits",
+              "rpmLow": 12000,
+              "rpmHigh": 35000
+            },
+            {
+              "name": "Engraving bits",
+              "rpmLow": 12000,
+              "rpmHigh": 17000
+            },
+            {
+              "name": "Structured tungsten-carbide bits",
+              "rpmLow": 12000,
+              "rpmHigh": 17000
+            },
+            {
+              "name": "Tungsten carbide",
+              "rpmLow": 12000,
+              "rpmHigh": 17000
+            }
+          ]
+        },
+        {
+          "cat": "grinding",
+          "types": [
+            {
+              "name": "Silicon carbide",
+              "rpmLow": 9000,
+              "rpmHigh": 11000
+            },
+            {
+              "name": "Finishing abrasive point",
+              "rpmLow": 12000,
+              "rpmHigh": 17000
+            },
+            {
+              "name": "Aluminium oxide abrasive wheel",
+              "rpmLow": 9000,
+              "rpmHigh": 17000
+            },
+            {
+              "name": "Aluminium oxide grinding wheel",
+              "rpmLow": 9000,
+              "rpmHigh": 17000
+            },
+            {
+              "name": "Aluminium oxide",
+              "rpmLow": 9000,
+              "rpmHigh": 11000
+            }
+          ]
+        },
+        {
+          "cat": "cutting",
+          "types": [
+            {
+              "name": "Cut-off wheels",
+              "rpmLow": 25000,
+              "rpmHigh": 35000
+            },
+            {
+              "name": "Fibreglass-reinforced cut-off wheels",
+              "rpmLow": 25000,
+              "rpmHigh": 35000
+            },
+            {
+              "name": "Thin cut-off wheels",
+              "rpmLow": 25000,
+              "rpmHigh": 35000
+            },
+            {
+              "name": "Multi-purpose cutting bit",
+              "rpmLow": 25000,
+              "rpmHigh": 35000
+            },
+            {
+              "name": "Fiberglass reinforced metal",
+              "rpmLow": 25000,
+              "rpmHigh": 35000
+            }
+          ]
+        },
+        {
+          "cat": "cleaning",
+          "types": [
+            {
+              "name": "Rubber polished points",
+              "rpmLow": 18000,
+              "rpmHigh": 24000
+            },
+            {
+              "name": "Felt polishing tips",
+              "rpmLow": 12000,
+              "rpmHigh": 17000
+            },
+            {
+              "name": "Impregnated wheels",
+              "rpmLow": 18000,
+              "rpmHigh": 24000
+            },
+            {
+              "name": "Polishing cloth",
+              "rpmLow": 5000,
+              "rpmHigh": 8000
+            },
+            {
+              "name": "Bristle brushes",
+              "rpmLow": 5000,
+              "rpmHigh": 8000
+            },
+            {
+              "name": "Carbon steel brushes",
+              "rpmLow": 9000,
+              "rpmHigh": 11000
+            },
+            {
+              "name": "Brass brushes",
+              "rpmLow": 9000,
+              "rpmHigh": 11000
+            }
+          ]
+        },
+        {
+          "cat": "sanding",
+          "types": [
+            {
+              "name": "Sanding bands",
+              "rpmLow": 25000,
+              "rpmHigh": 35000
+            },
+            {
+              "name": "Sanding discs",
+              "rpmLow": 5000,
+              "rpmHigh": 8000
+            },
+            {
+              "name": "Flapwheels",
+              "rpmLow": 18000,
+              "rpmHigh": 35000
+            },
+            {
+              "name": "Finishing abrasive buffs",
+              "rpmLow": 12000,
+              "rpmHigh": 15000
+            },
+            {
+              "name": "Detail abrasive brushes",
+              "rpmLow": 5000,
+              "rpmHigh": 15000
+            }
+          ]
+        },
+        {
+          "cat": "drilling",
+          "types": [
+            {
+              "name": "Drill bit set",
+              "rpmLow": 12000,
+              "rpmHigh": 17000
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "stone",
+      "name": "Stone",
+      "blurb": "Marble, granite and concrete — abrasive work best left to diamond and carbide.",
+      "groups": [
+        {
+          "cat": "carving",
+          "types": [
+            {
+              "name": "High-speed carving/engraving bits",
+              "rpmLow": 18000,
+              "rpmHigh": 24000
+            },
+            {
+              "name": "Diamond wheel points",
+              "rpmLow": 18000,
+              "rpmHigh": 24000
+            },
+            {
+              "name": "Tungsten carbide",
+              "rpmLow": 18000,
+              "rpmHigh": 24000
+            }
+          ]
+        },
+        {
+          "cat": "grinding",
+          "types": [
+            {
+              "name": "Silicon carbide",
+              "rpmLow": 12000,
+              "rpmHigh": 17000
+            },
+            {
+              "name": "Aluminium oxide",
+              "rpmLow": 12000,
+              "rpmHigh": 17000
+            }
+          ]
+        },
+        {
+          "cat": "cutting",
+          "types": [
+            {
+              "name": "Cut-off wheels",
+              "rpmLow": 25000,
+              "rpmHigh": 35000
+            },
+            {
+              "name": "Fibreglass-reinforced cut-off wheels",
+              "rpmLow": 25000,
+              "rpmHigh": 35000
+            },
+            {
+              "name": "Thin cut-off wheels",
+              "rpmLow": 25000,
+              "rpmHigh": 35000
+            },
+            {
+              "name": "Diamond wheels",
+              "rpmLow": 12000,
+              "rpmHigh": 24000
+            }
+          ]
+        },
+        {
+          "cat": "cleaning",
+          "types": [
+            {
+              "name": "Rubber polished points",
+              "rpmLow": 18000,
+              "rpmHigh": 24000
+            },
+            {
+              "name": "Felt polishing tips",
+              "rpmLow": 12000,
+              "rpmHigh": 17000
+            },
+            {
+              "name": "Polishing cloth",
+              "rpmLow": 5000,
+              "rpmHigh": 8000
+            },
+            {
+              "name": "Brass brushes",
+              "rpmLow": 9000,
+              "rpmHigh": 11000
+            }
+          ]
+        },
+        {
+          "cat": "sanding",
+          "types": [
+            {
+              "name": "Sanding bands",
+              "rpmLow": 5000,
+              "rpmHigh": 35000
+            }
+          ]
+        },
+        {
+          "cat": "drilling",
+          "types": [
+            {
+              "name": "Glass drilling bits",
+              "rpmLow": 5000,
+              "rpmHigh": 17000
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ceramic",
+      "name": "Ceramic",
+      "blurb": "Fired clay and tile — hard and brittle, so ease in to avoid chipping.",
+      "groups": [
+        {
+          "cat": "carving",
+          "types": [
+            {
+              "name": "High-speed carving/engraving bits",
+              "rpmLow": 18000,
+              "rpmHigh": 35000
+            },
+            {
+              "name": "Diamond wheel points",
+              "rpmLow": 18000,
+              "rpmHigh": 24000
+            },
+            {
+              "name": "Tungsten carbide",
+              "rpmLow": 18000,
+              "rpmHigh": 35000
+            }
+          ]
+        },
+        {
+          "cat": "grinding",
+          "types": [
+            {
+              "name": "Silicon carbide",
+              "rpmLow": 25000,
+              "rpmHigh": 35000
+            },
+            {
+              "name": "Aluminium oxide",
+              "rpmLow": 25000,
+              "rpmHigh": 35000
+            }
+          ]
+        },
+        {
+          "cat": "cutting",
+          "types": [
+            {
+              "name": "Cut-off wheels",
+              "rpmLow": 25000,
+              "rpmHigh": 35000
+            },
+            {
+              "name": "Fibreglass-reinforced cut-off wheels",
+              "rpmLow": 25000,
+              "rpmHigh": 35000
+            },
+            {
+              "name": "Thin cut-off wheels",
+              "rpmLow": 25000,
+              "rpmHigh": 35000
+            },
+            {
+              "name": "Diamond wheels",
+              "rpmLow": 12000,
+              "rpmHigh": 24000
+            },
+            {
+              "name": "Tile cutting bit",
+              "rpmLow": 25000,
+              "rpmHigh": 35000
+            }
+          ]
+        },
+        {
+          "cat": "cleaning",
+          "types": [
+            {
+              "name": "Rubber polished points",
+              "rpmLow": 18000,
+              "rpmHigh": 24000
+            },
+            {
+              "name": "Felt polishing tips",
+              "rpmLow": 12000,
+              "rpmHigh": 17000
+            },
+            {
+              "name": "Polishing cloth",
+              "rpmLow": 5000,
+              "rpmHigh": 8000
+            }
+          ]
+        },
+        {
+          "cat": "sanding",
+          "types": [
+            {
+              "name": "Sanding bands",
+              "rpmLow": 5000,
+              "rpmHigh": 35000
+            }
+          ]
+        },
+        {
+          "cat": "drilling",
+          "types": [
+            {
+              "name": "Glass drilling bits",
+              "rpmLow": 5000,
+              "rpmHigh": 17000
+            }
+          ]
+        },
+        {
+          "cat": "grout",
+          "types": [
+            {
+              "name": "Carbide grout removal bits",
+              "rpmLow": 12000,
+              "rpmHigh": 20000
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "glass",
+      "name": "Glass",
+      "blurb": "Bottles, sheet and mirror — go slow and keep it cool so it doesn't crack.",
+      "groups": [
+        {
+          "cat": "carving",
+          "types": [
+            {
+              "name": "High-speed carving/engraving bits",
+              "rpmLow": 18000,
+              "rpmHigh": 35000
+            },
+            {
+              "name": "Diamond wheel points",
+              "rpmLow": 18000,
+              "rpmHigh": 24000
+            },
+            {
+              "name": "Tungsten carbide",
+              "rpmLow": 18000,
+              "rpmHigh": 35000
+            }
+          ]
+        },
+        {
+          "cat": "grinding",
+          "types": [
+            {
+              "name": "Silicon carbide",
+              "rpmLow": 25000,
+              "rpmHigh": 35000
+            }
+          ]
+        },
+        {
+          "cat": "cleaning",
+          "types": [
+            {
+              "name": "Rubber polished points",
+              "rpmLow": 18000,
+              "rpmHigh": 24000
+            },
+            {
+              "name": "Felt polishing tips",
+              "rpmLow": 12000,
+              "rpmHigh": 17000
+            },
+            {
+              "name": "Polishing cloth",
+              "rpmLow": 12000,
+              "rpmHigh": 24000
+            }
+          ]
+        },
+        {
+          "cat": "drilling",
+          "types": [
+            {
+              "name": "Glass drilling bits",
+              "rpmLow": 5000,
+              "rpmHigh": 17000
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "drywall",
+      "name": "Drywall",
+      "blurb": "Plasterboard — fast plunge-cuts for outlets, boxes and fixtures.",
+      "groups": [
+        {
+          "cat": "cutting",
+          "types": [
+            {
+              "name": "Drywall bits",
+              "rpmLow": 30000,
+              "rpmHigh": 30000
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "laminates",
+      "name": "Laminates",
+      "blurb": "Countertop and flooring laminate — clean edges without lifting the top layer.",
+      "groups": [
+        {
+          "cat": "carving",
+          "types": [
+            {
+              "name": "High-speed carving/engraving bits",
+              "rpmLow": 9000,
+              "rpmHigh": 17000
+            },
+            {
+              "name": "Carving bits",
+              "rpmLow": 9000,
+              "rpmHigh": 17000
+            },
+            {
+              "name": "Engraving bits",
+              "rpmLow": 12000,
+              "rpmHigh": 24000
+            },
+            {
+              "name": "Structured tungsten-carbide bits",
+              "rpmLow": 9000,
+              "rpmHigh": 11000
+            },
+            {
+              "name": "Tungsten carbide",
+              "rpmLow": 9000,
+              "rpmHigh": 11000
+            }
+          ]
+        },
+        {
+          "cat": "grinding",
+          "types": [
+            {
+              "name": "Silicon carbide",
+              "rpmLow": 12000,
+              "rpmHigh": 17000
+            }
+          ]
+        },
+        {
+          "cat": "cutting",
+          "types": [
+            {
+              "name": "Cut-off wheels",
+              "rpmLow": 5000,
+              "rpmHigh": 11000
+            },
+            {
+              "name": "Fibreglass-reinforced cut-off wheels",
+              "rpmLow": 5000,
+              "rpmHigh": 11000
+            },
+            {
+              "name": "Thin cut-off wheels",
+              "rpmLow": 5000,
+              "rpmHigh": 11000
+            },
+            {
+              "name": "Carbide cutting & shaping wheels",
+              "rpmLow": 5000,
+              "rpmHigh": 11000
+            },
+            {
+              "name": "Wood cutting wheel",
+              "rpmLow": 5000,
+              "rpmHigh": 11000
+            },
+            {
+              "name": "Multi-purpose cutting bit",
+              "rpmLow": 5000,
+              "rpmHigh": 11000
+            },
+            {
+              "name": "Fiberglass reinforced plastic",
+              "rpmLow": 5000,
+              "rpmHigh": 11000
+            }
+          ]
+        },
+        {
+          "cat": "cleaning",
+          "types": [
+            {
+              "name": "Bristle brushes",
+              "rpmLow": 5000,
+              "rpmHigh": 11000
+            },
+            {
+              "name": "Carbon steel brushes",
+              "rpmLow": 5000,
+              "rpmHigh": 8000
+            }
+          ]
+        },
+        {
+          "cat": "sanding",
+          "types": [
+            {
+              "name": "Sanding bands",
+              "rpmLow": 5000,
+              "rpmHigh": 17000
+            },
+            {
+              "name": "Sanding discs",
+              "rpmLow": 5000,
+              "rpmHigh": 8000
+            },
+            {
+              "name": "Flapwheels",
+              "rpmLow": 5000,
+              "rpmHigh": 8000
+            },
+            {
+              "name": "Finishing abrasive buffs",
+              "rpmLow": 9000,
+              "rpmHigh": 11000
+            },
+            {
+              "name": "Detail abrasive brushes",
+              "rpmLow": 5000,
+              "rpmHigh": 15000
+            }
+          ]
+        },
+        {
+          "cat": "drilling",
+          "types": [
+            {
+              "name": "Drill bit set",
+              "rpmLow": 5000,
+              "rpmHigh": 11000
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "aluminium",
+      "name": "Aluminium",
+      "blurb": "Light, soft metal — cuts and sands fast; a little wax stops it clogging.",
+      "groups": [
+        {
+          "cat": "carving",
+          "types": [
+            {
+              "name": "High-speed carving/engraving bits",
+              "rpmLow": 12000,
+              "rpmHigh": 35000
+            },
+            {
+              "name": "Carving bits",
+              "rpmLow": 12000,
+              "rpmHigh": 35000
+            },
+            {
+              "name": "Engraving bits",
+              "rpmLow": 12000,
+              "rpmHigh": 17000
+            },
+            {
+              "name": "Structured tungsten-carbide bits",
+              "rpmLow": 12000,
+              "rpmHigh": 17000
+            },
+            {
+              "name": "Tungsten carbide",
+              "rpmLow": 12000,
+              "rpmHigh": 17000
+            }
+          ]
+        },
+        {
+          "cat": "grinding",
+          "types": [
+            {
+              "name": "Silicon carbide",
+              "rpmLow": 9000,
+              "rpmHigh": 11000
+            },
+            {
+              "name": "Finishing abrasive point",
+              "rpmLow": 12000,
+              "rpmHigh": 17000
+            },
+            {
+              "name": "Aluminium oxide abrasive wheel",
+              "rpmLow": 9000,
+              "rpmHigh": 17000
+            },
+            {
+              "name": "Aluminium oxide grinding wheel",
+              "rpmLow": 9000,
+              "rpmHigh": 17000
+            },
+            {
+              "name": "Aluminium oxide",
+              "rpmLow": 9000,
+              "rpmHigh": 11000
+            }
+          ]
+        },
+        {
+          "cat": "cutting",
+          "types": [
+            {
+              "name": "Cut-off wheels",
+              "rpmLow": 25000,
+              "rpmHigh": 35000
+            },
+            {
+              "name": "Fibreglass-reinforced cut-off wheels",
+              "rpmLow": 25000,
+              "rpmHigh": 35000
+            },
+            {
+              "name": "Thin cut-off wheels",
+              "rpmLow": 25000,
+              "rpmHigh": 35000
+            },
+            {
+              "name": "Multi-purpose cutting bit",
+              "rpmLow": 25000,
+              "rpmHigh": 35000
+            },
+            {
+              "name": "Fiberglass reinforced metal",
+              "rpmLow": 25000,
+              "rpmHigh": 35000
+            }
+          ]
+        },
+        {
+          "cat": "cleaning",
+          "types": [
+            {
+              "name": "Rubber polished points",
+              "rpmLow": 18000,
+              "rpmHigh": 24000
+            },
+            {
+              "name": "Felt polishing tips",
+              "rpmLow": 12000,
+              "rpmHigh": 17000
+            },
+            {
+              "name": "Impregnated wheels",
+              "rpmLow": 18000,
+              "rpmHigh": 24000
+            },
+            {
+              "name": "Polishing cloth",
+              "rpmLow": 5000,
+              "rpmHigh": 8000
+            },
+            {
+              "name": "Bristle brushes",
+              "rpmLow": 5000,
+              "rpmHigh": 8000
+            },
+            {
+              "name": "Carbon steel brushes",
+              "rpmLow": 9000,
+              "rpmHigh": 11000
+            },
+            {
+              "name": "Brass brushes",
+              "rpmLow": 9000,
+              "rpmHigh": 11000
+            }
+          ]
+        },
+        {
+          "cat": "sanding",
+          "types": [
+            {
+              "name": "Sanding bands",
+              "rpmLow": 25000,
+              "rpmHigh": 35000
+            },
+            {
+              "name": "Sanding discs",
+              "rpmLow": 5000,
+              "rpmHigh": 8000
+            },
+            {
+              "name": "Flapwheels",
+              "rpmLow": 18000,
+              "rpmHigh": 35000
+            },
+            {
+              "name": "Finishing abrasive buffs",
+              "rpmLow": 12000,
+              "rpmHigh": 15000
+            },
+            {
+              "name": "Detail abrasive brushes",
+              "rpmLow": 5000,
+              "rpmHigh": 15000
+            }
+          ]
+        },
+        {
+          "cat": "drilling",
+          "types": [
+            {
+              "name": "Drill bit set",
+              "rpmLow": 12000,
+              "rpmHigh": 17000
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "shell",
+      "name": "Shell",
+      "blurb": "Mother-of-pearl and shell — delicate detail work with a gentle touch.",
+      "groups": [
+        {
+          "cat": "carving",
+          "types": [
+            {
+              "name": "High-speed carving/engraving bits",
+              "rpmLow": 18000,
+              "rpmHigh": 24000
+            },
+            {
+              "name": "Diamond wheel points",
+              "rpmLow": 18000,
+              "rpmHigh": 24000
+            },
+            {
+              "name": "Tungsten carbide",
+              "rpmLow": 18000,
+              "rpmHigh": 24000
+            }
+          ]
+        },
+        {
+          "cat": "grinding",
+          "types": [
+            {
+              "name": "Silicon carbide",
+              "rpmLow": 12000,
+              "rpmHigh": 17000
+            },
+            {
+              "name": "Aluminium oxide",
+              "rpmLow": 12000,
+              "rpmHigh": 17000
+            }
+          ]
+        },
+        {
+          "cat": "cutting",
+          "types": [
+            {
+              "name": "Cut-off wheels",
+              "rpmLow": 25000,
+              "rpmHigh": 35000
+            },
+            {
+              "name": "Fibreglass-reinforced cut-off wheels",
+              "rpmLow": 25000,
+              "rpmHigh": 35000
+            },
+            {
+              "name": "Thin cut-off wheels",
+              "rpmLow": 25000,
+              "rpmHigh": 35000
+            },
+            {
+              "name": "Diamond wheels",
+              "rpmLow": 12000,
+              "rpmHigh": 24000
+            }
+          ]
+        },
+        {
+          "cat": "cleaning",
+          "types": [
+            {
+              "name": "Rubber polished points",
+              "rpmLow": 18000,
+              "rpmHigh": 24000
+            },
+            {
+              "name": "Felt polishing tips",
+              "rpmLow": 12000,
+              "rpmHigh": 17000
+            },
+            {
+              "name": "Polishing cloth",
+              "rpmLow": 5000,
+              "rpmHigh": 8000
+            },
+            {
+              "name": "Brass brushes",
+              "rpmLow": 9000,
+              "rpmHigh": 11000
+            }
+          ]
+        },
+        {
+          "cat": "sanding",
+          "types": [
+            {
+              "name": "Sanding bands",
+              "rpmLow": 5000,
+              "rpmHigh": 35000
+            }
+          ]
+        },
+        {
+          "cat": "drilling",
+          "types": [
+            {
+              "name": "Glass drilling bits",
+              "rpmLow": 5000,
+              "rpmHigh": 17000
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

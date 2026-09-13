@@ -1,0 +1,14 @@
+/* Base reset only — the design system (tokens, themes, components) lives in App.css. */
+:root {
+  color-scheme: light dark;
+}
+* {
+  box-sizing: border-box;
+}
+html,
+body {
+  margin: 0;
+}
+button {
+  font: inherit;
+}
