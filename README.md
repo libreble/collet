@@ -3,7 +3,7 @@
 **Open the app: <https://libreble.github.io/collet/>** — installable, works offline. Needs Chrome on
 Android or Chrome/Edge on desktop (Web Bluetooth). No account, no cloud.
 
-Part of [libreble](https://libreble.github.io) — your devices, without their vendors.
+Part of [libreble](https://libreble.github.io) — your devices, set free.
 
 A browser app to monitor and control a Dremel 8260 smart rotary tool over BLE,
 using the STP/protobuf protocol documented in
