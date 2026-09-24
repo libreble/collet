@@ -8,11 +8,12 @@ import { WebBluetoothTransport, isWebBluetoothAvailable } from './ble/webBluetoo
 import { useToolClient } from './hooks/useToolClient';
 import { useTheme } from './theme';
 import { Icon, IconSprite } from './Icons';
-import { GUIDE, NOMINAL_TABLE } from './guide';
+import { NOMINAL_TABLE } from './guide';
 import Dashboard from './Dashboard';
 import { AccessoryPage, GuideAccessoryGrid, GuideMaterialGrid, MaterialPage } from './Guide';
 import type { GuideProps } from './Guide';
 import Diagnostics from './Diagnostics';
+import AppFooter from './AppFooter';
 
 type TransportKind = 'ble' | 'mock';
 
@@ -174,11 +175,7 @@ export default function App() {
         <Route path="*" element={<Navigate to="/guide" replace />} />
       </Routes>
 
-      <footer className="footnote">
-        <b>COLLET</b> — an unofficial companion for the Dremel 8260. {GUIDE.meta.attribution} The
-        BLE protocol is documented for interoperability in <code>PROTOCOL.md</code>; no hardware
-        needed in <b>Demo</b> mode.
-      </footer>
+      <AppFooter />
     </div>
   );
 }
