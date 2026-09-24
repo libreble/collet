@@ -38,8 +38,8 @@ export default function App() {
   const table = s.rpmTable.length ? s.rpmTable.map((v) => v * 10) : NOMINAL_TABLE;
   const pairing = s.needsPairing && (connected || connecting);
 
-  const onDash = location.pathname.startsWith('/dashboard');
-  const onGuide = !onDash;
+  const onGuide = location.pathname.startsWith('/guide');
+  const onDash = !onGuide;
 
   const guideProps: GuideProps = {
     dark,
@@ -47,7 +47,7 @@ export default function App() {
     table,
     onSend: (level) => {
       void client.setSpeedLevel(level);
-      navigate('/dashboard');
+      navigate('/');
     },
   };
 
@@ -67,7 +67,7 @@ export default function App() {
         </div>
 
         <div className="seg" role="tablist" aria-label="Views">
-          <button role="tab" aria-selected={onDash} onClick={() => navigate('/dashboard')}>
+          <button role="tab" aria-selected={onDash} onClick={() => navigate('/')}>
             <Icon name="i-gauge" />
             Dashboard
           </button>
@@ -149,7 +149,7 @@ export default function App() {
 
       <Routes>
         <Route
-          path="/dashboard"
+          path="/"
           element={
             <section className="view active">
               <Dashboard
@@ -171,8 +171,9 @@ export default function App() {
         <Route path="/guide/by-accessory" element={<GuideAccessoryGrid {...guideProps} />} />
         <Route path="/guide/m/:slug" element={<MaterialPage {...guideProps} />} />
         <Route path="/guide/a/:slug" element={<AccessoryPage {...guideProps} />} />
-        <Route path="/" element={<Navigate to="/guide" replace />} />
-        <Route path="*" element={<Navigate to="/guide" replace />} />
+        {/* The dashboard lived at /dashboard until v1.1.1 — keep old bookmarks working. */}
+        <Route path="/dashboard" element={<Navigate to="/" replace />} />
+        <Route path="*" element={<Navigate to="/" replace />} />
       </Routes>
 
       <AppFooter />
