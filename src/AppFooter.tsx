@@ -4,6 +4,16 @@ const RELEASE = /^v\d+\.\d+\.\d+$/.test(__APP_VERSION__)
   ? `${REPO}/releases/tag/${__APP_VERSION__}`
   : null;
 
+/** The Ko-fi link wears a different joke each page load; its title/aria-label says what it is. */
+const KOFI_JOKES = [
+  'Buy me a drill bit',
+  'Buy me a cut-off wheel',
+  'Buy me a sanding drum',
+  'Buy me safety glasses',
+];
+const KOFI_JOKE = KOFI_JOKES[Math.floor(Math.random() * KOFI_JOKES.length)];
+const KOFI_TITLE = 'Support libreble on Ko-fi';
+
 export default function AppFooter() {
   return (
     <footer className="app-footer">
@@ -23,6 +33,16 @@ export default function AppFooter() {
         </a>
         <a href={`${REPO}/issues/new`} target="_blank" rel="noopener noreferrer">
           Report an issue
+        </a>
+        <a
+          href="https://ko-fi.com/mannes"
+          target="_blank"
+          rel="noopener noreferrer"
+          title={KOFI_TITLE}
+          aria-label={`${KOFI_JOKE} — ${KOFI_TITLE}`}
+        >
+          <CupMark />
+          {KOFI_JOKE}
         </a>
         {RELEASE ? (
           <a href={RELEASE} target="_blank" rel="noopener noreferrer" className="mono">
@@ -51,6 +71,24 @@ function LibrebleMark() {
         <path d="M54.69 42.50A25 25 0 1 1 54.69 21.50" />
       </g>
       <circle cx="32" cy="32" r="6.5" className="libreble-led" />
+    </svg>
+  );
+}
+
+function CupMark() {
+  return (
+    <svg
+      viewBox="0 0 16 16"
+      fill="none"
+      stroke="currentColor"
+      strokeWidth="1.5"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      aria-hidden
+    >
+      <path d="M2.5 6h9v4a3.5 3.5 0 0 1-3.5 3.5H6A3.5 3.5 0 0 1 2.5 10V6Z" />
+      <path d="M11.5 7h1a1.75 1.75 0 0 1 0 3.5h-1.2" />
+      <path d="M5.5 2.5v1.5M8.5 2.5v1.5" />
     </svg>
   );
 }
