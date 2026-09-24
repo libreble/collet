@@ -2,6 +2,7 @@ import { useEffect, useState } from 'react';
 import type { ToolState } from './protocol/client';
 import { NOMINAL_TABLE } from './guide';
 import { Icon } from './Icons';
+import { useDocumentMeta } from './meta';
 
 // Tachometer geometry — 270° open-bottom dial.
 const A0 = 135;
@@ -37,6 +38,11 @@ export default function Dashboard({
   onConnect,
   onSetSpeed,
 }: DashboardProps) {
+  // Same as index.html, so coming back from a guide page restores the app's own title + canonical.
+  useDocumentMeta(
+    'COLLET — Dremel 8260 Bluetooth companion & accessory speed guide',
+    'Live speed, battery and temperature from your Dremel 8260, speed control, and an accessory & material speed guide. In Chrome over Web Bluetooth — no account, no cloud.',
+  );
   // Real per-level RPM (tool reports ÷10), else the nominal dial.
   const table = state.rpmTable.length ? state.rpmTable.map((v) => v * 10) : NOMINAL_TABLE;
   const levels = state.countOfSpeedLevels || table.length;
