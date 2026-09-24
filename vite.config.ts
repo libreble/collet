@@ -23,16 +23,22 @@ function pagesSpaFallback(): Plugin {
 
 // COLLET is a fully local PWA: no backend, no analytics, no cloud.
 // Served from the /collet/ subpath on GitHub Pages (https://libreble.github.io/collet/).
+// Self-hosters override it: `BASE_PATH=/ npm run build` (the Docker image does this).
+const base = `/${(process.env.BASE_PATH ?? '/collet/').replace(/^\/+|\/+$/g, '')}/`.replace(
+  '//',
+  '/',
+);
+
 export default defineConfig({
-  base: '/collet/',
+  base,
   plugins: [
     react(),
     VitePWA({
       registerType: 'autoUpdate',
       manifest: {
-        id: '/collet/',
-        start_url: '/collet/',
-        scope: '/collet/',
+        id: base,
+        start_url: base,
+        scope: base,
         name: 'COLLET — Dremel 8260 companion',
         short_name: 'COLLET',
         description:
@@ -57,7 +63,7 @@ export default defineConfig({
         // Precache the app shell, icons and the bundled guide data so the whole
         // guide works offline. The tool link is local BLE — no server needed.
         globPatterns: ['**/*.{js,css,html,svg,png,json,woff2}'],
-        navigateFallback: '/collet/index.html',
+        navigateFallback: `${base}index.html`,
       },
     }),
     pagesSpaFallback(),

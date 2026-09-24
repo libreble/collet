@@ -20,6 +20,18 @@ function canonical(href: string) {
   el.setAttribute('href', href);
 }
 
+// Canonical URLs always point at the public app, also in self-hosted copies (any base path),
+// so search engines don't index those as duplicates.
+const CANONICAL_ROOT = 'https://libreble.github.io/collet/';
+
+function canonicalFor(pathname: string) {
+  const base = import.meta.env.BASE_URL;
+  const route = pathname.startsWith(base)
+    ? pathname.slice(base.length)
+    : pathname.replace(/^\//, '');
+  return CANONICAL_ROOT + route;
+}
+
 /** Set title + description + Open Graph/Twitter tags for the current route. */
 export function useDocumentMeta(title: string, description: string) {
   useEffect(() => {
@@ -29,6 +41,6 @@ export function useDocumentMeta(title: string, description: string) {
     upsert('property', 'og:description', description);
     upsert('name', 'twitter:title', title);
     upsert('name', 'twitter:description', description);
-    canonical(window.location.origin + window.location.pathname);
+    canonical(canonicalFor(window.location.pathname));
   }, [title, description]);
 }
